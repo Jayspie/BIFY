@@ -10,7 +10,7 @@ from info import * #Access for the keys, secret, and ids
 auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
 auth.set_access_token(key, secret)
 api = tweepy.API(auth)
-
+#hi
 #Spotify api authorization
 scope="playlist-modify-public"
 username=user_id
